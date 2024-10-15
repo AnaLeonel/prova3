@@ -1,0 +1,29 @@
+﻿@model prova3questao3.ViewModels.StudentDetailsViewModel
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Details</title>
+</head>
+<body>
+    <h1>Student Details</h1>
+
+    <div>
+        Name: @Model?.Student?.nome
+    </div>
+    <div>
+        Turn: @Model?.Student?.turno
+    </div>
+    <div>
+        Course: @Model?.Student?.curso
+    </div>
+    <div>
+        City: @Model?.Address?.City
+    </div>
+    <div>
+        State: @Model?.Address?.State
+    </div>
+    <div>
+        Country: @Model?.Address?.Country
+    </div>
+</body>
+</html>

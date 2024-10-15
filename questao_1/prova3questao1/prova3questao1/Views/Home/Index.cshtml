@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Lista de Alunos";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    <ul>
+        @foreach (var student in (List<Student>)ViewData["StudentList"])
+        {
+            <li>
+                Nome: @student.nome <br />
+                Turno: @student.turno <br />
+                Curso: @student.curso <br />
+                <hr />
+            </li>
+        }
+    </ul>
+</div>

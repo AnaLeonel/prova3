@@ -1,0 +1,49 @@
+/* _content/prova3questao1/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-dezkrp7wqc] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-dezkrp7wqc] {
+  color: #0077cc;
+}
+
+.btn-primary[b-dezkrp7wqc] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-dezkrp7wqc], .nav-pills .show > .nav-link[b-dezkrp7wqc] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-dezkrp7wqc] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-dezkrp7wqc] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-dezkrp7wqc] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-dezkrp7wqc] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-dezkrp7wqc] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
